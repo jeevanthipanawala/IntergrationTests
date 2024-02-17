@@ -21,7 +21,7 @@ public class TestCalculator {
         assertEquals(0,main.sub(2,2));
     }
     @Test
-    public void testmul()
+    public void testmul() // test multi
     {
         main=new Main();
         assertEquals(4,main.multi(2,2));
