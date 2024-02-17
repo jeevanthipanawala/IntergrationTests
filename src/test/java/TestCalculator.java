@@ -20,6 +20,11 @@ public class TestCalculator {
         main=new Main();
         assertEquals(0,main.sub(2,2));
     }
-
+    @Test
+    public void testmul()
+    {
+        main=new Main();
+        assertEquals(4,main.multi(2,2));
+    }
 
 }
