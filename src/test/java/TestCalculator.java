@@ -15,7 +15,7 @@ public class TestCalculator {
         assertNotEquals(main,null);
     }
     @Test
-    public void testSub()
+    public void testSub() //test sub
     {
         main=new Main();
         assertEquals(0,main.sub(2,2));
