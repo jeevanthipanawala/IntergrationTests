@@ -77,7 +77,7 @@ public class TestCalculator {
     public void TestLogarithm()
     {
         main=new Main();
-        assertEquals(main.Logarithm(10.0F),main.Logarithm(10.0F),0.0F);
+        assertEquals(1,main.Logarithm(10.0F),0.0F);
     }
 
 
