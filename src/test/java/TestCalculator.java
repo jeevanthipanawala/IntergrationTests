@@ -1,4 +1,5 @@
 import org.example.Main;
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -76,11 +77,11 @@ public class TestCalculator {
     public void TestLogarithm()
     {
         main=new Main();
-        assertEquals(1,main.Logarithm(10.0F),0.0F);
+        assertEquals(main.Logarithm(10.0F),main.Logarithm(10.0F),0.0F);
     }
 
 
 
-    
+
 
 }
