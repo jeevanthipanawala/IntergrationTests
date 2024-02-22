@@ -11,8 +11,8 @@ pipeline {
 			withMaven(globalMavenSettingsConfig: '', jdk: '', maven: 'Maven', mavenSettingsConfig: '', traceability: true) {
    				//sh 'mvn clean install'
 				sh 'mvn clean verify -DskipITs=true';
-		      	junit '**/target/surefire-reports/TEST-*.xml'
-		      	archiveArtifacts  'target/*.jar'
+		      	//junit '**/target/surefire-reports/TEST-*.xml'
+		      	//archiveArtifacts  'target/*.jar'
 			}
 			}
    	    }
@@ -22,8 +22,8 @@ pipeline {
 			withMaven(globalMavenSettingsConfig: '', jdk: '', maven: 'Maven', mavenSettingsConfig: '', traceability: true) {
     			//sh 'mvn verify';
 				sh  'mvn clean verify -Dsurefire.skip=true';
-				junit '**/target/failsafe-reports/TEST-*.xml'
-      			archiveArtifacts  'target/*.jar'
+				//junit '**/target/failsafe-reports/TEST-*.xml'
+      			//archiveArtifacts  'target/*.jar'
 			}
       		}
         }	
