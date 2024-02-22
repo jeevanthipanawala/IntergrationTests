@@ -12,8 +12,8 @@ public class ITCalculator {
     public void testSubAndAdd() //test sub
     {
         main=new Main();
-        int addResult=main.add(5,5);
+        int addResult=main.add(6,5);
         int subResult=main.sub(addResult,4);
-        assertEquals(6,subResult);
+        assertEquals(7,subResult);
     }
 }
