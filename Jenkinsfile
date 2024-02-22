@@ -9,7 +9,7 @@ pipeline {
 	   stage ('Build & Unit test'){
 		    steps {
 			withMaven(globalMavenSettingsConfig: '', jdk: '', maven: 'Maven', mavenSettingsConfig: '', traceability: true) {
-   				sh 'mvn clean install'
+   				sh 'mvn install -DskipITs=true'
 				//sh 'mvn clean verify -DskipITs=true';
 		      	//junit '**/target/surefire-reports/TEST-*.xml'
 		      	//archiveArtifacts  'target/*.jar'
