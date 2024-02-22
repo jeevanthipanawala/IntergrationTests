@@ -17,7 +17,7 @@ pipeline {
 	   stage ('Integration Test'){
 	        steps {
 			withMaven(globalMavenSettingsConfig: '', jdk: '', maven: 'Maven', mavenSettingsConfig: '', traceability: true) {
-				sh 'mvn -skip.ut=true verify'
+				sh 'mvn verify -Dskip.ut=true'
     			
 			}
       		}
