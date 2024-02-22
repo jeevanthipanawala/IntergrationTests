@@ -20,10 +20,8 @@ pipeline {
 	   stage ('Integration Test'){
 	        steps {
 			withMaven(globalMavenSettingsConfig: '', jdk: '', maven: 'Maven', mavenSettingsConfig: '', traceability: true) {
-    			//sh 'mvn verify';
-				sh  'mvn verify -Dsurefire.skip=true';
-				//junit '**/target/failsafe-reports/TEST-*.xml'
-      			//archiveArtifacts  'target/*.jar'
+				sh 'mvn -Dskip.ut=true verify'
+    			
 			}
       		}
         }	
