@@ -9,7 +9,7 @@ pipeline {
 	   stage ('Build & Unit test'){
 		    steps {
 			withMaven(globalMavenSettingsConfig: '', jdk: '', maven: 'Maven', mavenSettingsConfig: '', traceability: true) {
-   				sh 'mvn install -DskipITs=true'				
+   				sh 'mvn test -DskipITs=true'				
 			}
 			}
    	    }
