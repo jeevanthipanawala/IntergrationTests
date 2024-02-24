@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26658d39-33bd-4ab1-b000-64c0d6eb81e7" name="Changes" comment="Commit 1 - Added Parameterized Unit Tests and Changed Main Methods" />
+    <list default="true" id="26658d39-33bd-4ab1-b000-64c0d6eb81e7" name="Changes" comment="Commit 1 - Added Parameterized Unit Tests and Changed Main Methods">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData_Substraction.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData_Substraction.csv" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +108,7 @@
       <workItem from="1708623107479" duration="591000" />
       <workItem from="1708721058360" duration="310000" />
       <workItem from="1708721432329" duration="38000" />
-      <workItem from="1708722610488" duration="4004000" />
+      <workItem from="1708722610488" duration="6047000" />
     </task>
     <task id="LOCAL-00001" summary="Added Logarithm function and Test">
       <option name="closed" value="true" />
@@ -171,7 +174,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708776042179</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Commit 1 - Added Parameterized Unit Tests and Changed Main Methods">
+      <option name="closed" value="true" />
+      <created>1708776102584</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708776102584</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Commit 1 - Added Parameterized Unit Tests and Changed Main Methods">
+      <option name="closed" value="true" />
+      <created>1708779065285</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708779065285</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
