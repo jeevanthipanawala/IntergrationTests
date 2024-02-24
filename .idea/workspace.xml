@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26658d39-33bd-4ab1-b000-64c0d6eb81e7" name="Changes" comment="Commit 1 - Added Parameterized Unit Tests and Changed Main Methods" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2caeqS6HXP9plrWePS8X9UaxLer" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.ITCalculator.executor": "Run",
+    "JUnit.TestCalculator.TestLogarithm.executor": "Run",
+    "JUnit.TestCalculator.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/BTH/Semester 2/Software Testing/Assignment4/Testing Assignment/IntergrationTests/src/test/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BTH\Semester 2\Software Testing\Assignment4\Testing Assignment\IntergrationTests\src\test\resources" />
+      <recent name="D:\BTH\Semester 2\Software Testing\Assignment4\Testing Assignment\IntergrationTests\src\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BTH\Semester 2\Software Testing\Assignment4\Testing Assignment\IntergrationTests\src\IT" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestCalculator.TestLogarithm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IntergrationTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCalculator" />
+      <option name="METHOD_NAME" value="TestLogarithm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestCalculator.TestLogarithm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26658d39-33bd-4ab1-b000-64c0d6eb81e7" name="Changes" comment="" />
+      <created>1708354307199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708354307199</updated>
+      <workItem from="1708354308265" duration="3974000" />
+      <workItem from="1708372822046" duration="625000" />
+      <workItem from="1708425575156" duration="957000" />
+      <workItem from="1708451887681" duration="2177000" />
+      <workItem from="1708535514071" duration="650000" />
+      <workItem from="1708599631465" duration="4033000" />
+      <workItem from="1708623107479" duration="591000" />
+      <workItem from="1708721058360" duration="310000" />
+      <workItem from="1708721432329" duration="38000" />
+      <workItem from="1708722610488" duration="4004000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added Logarithm function and Test">
+      <option name="closed" value="true" />
+      <created>1708357481964</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708357481964</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changed Logarithm Test">
+      <option name="closed" value="true" />
+      <created>1708425890058</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708425890058</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changed pom.xml">
+      <option name="closed" value="true" />
+      <created>1708453174175</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708453174175</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changed TestLogarithm expected result">
+      <option name="closed" value="true" />
+      <created>1708454211319</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708454211319</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added IntegrationTest Class">
+      <option name="closed" value="true" />
+      <created>1708601269287</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708601269287</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Modified IntegrationTest Class">
+      <option name="closed" value="true" />
+      <created>1708602166769</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708602166769</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Modified TestLogarithm Method">
+      <option name="closed" value="true" />
+      <created>1708602334834</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708602334834</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Commit 1 - Added Parameterized Unit Tests and Changed Main Methods">
+      <option name="closed" value="true" />
+      <created>1708776042179</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708776042179</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Logarithm function and Test" />
+    <MESSAGE value="Changed Logarithm Test" />
+    <MESSAGE value="Changed pom.xml" />
+    <MESSAGE value="Changed TestLogarithm expected result" />
+    <MESSAGE value="Added IntegrationTest Class" />
+    <MESSAGE value="Modified IntegrationTest Class" />
+    <MESSAGE value="Modified TestLogarithm Method" />
+    <MESSAGE value="Commit 1 - Added Parameterized Unit Tests and Changed Main Methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 1 - Added Parameterized Unit Tests and Changed Main Methods" />
+  </component>
+</project>
