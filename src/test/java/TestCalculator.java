@@ -1,86 +1,50 @@
 import org.example.Main;
-import org.junit.Assert;
-import org.junit.Test;
-
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
 
 public class TestCalculator {
 
 
-    public Main main;
-    @Test
-    public void testMainConstrctor()
-    {
-        main =new Main();
+    private Main main;
 
-        assertNotEquals(main,null);
-    }
-    @Test
-    public void testSub() //test sub
-    {
-        main=new Main();
-        assertEquals(0,main.sub(2,2));
-    }
-    @Test
-    public void testmul() // test multi
-    {
-        main=new Main();
-        assertEquals(4,main.multi(2,2));
+    @BeforeEach
+    void setup() {
+        main = new Main();
     }
 
-    @Test
-    public void testdivision() // test division
+    @ParameterizedTest
+    @CsvFileSource(resources = "/TestData_Addition.csv")
+    public void testAddition(int addparam1,int addparam2,int result) //test Addition
     {
-        main=new Main();
-        assertEquals(1,main.division(2,2));
-    }
-    @Test
-    public void testmodulus() // test modulus
-    {
-        main=new Main();
-        assertEquals(1,main.modulus(3,2));
-    }
-    @Test
-    public void testsqurt() // test sqrt
-    {
-        main=new Main();
-        assertEquals(2,main.squareroot(4));
+        int addResult=main.Add(addparam1,addparam2);
+        Assertions.assertEquals(result, addResult);
     }
 
-    @Test
-    public void testabsoluteValue() // test absoluteValue
+    @ParameterizedTest
+    @CsvFileSource(resources = "/TestData_Substraction.csv")
+    public void testSubstraction(int param1,int param2,int result) //test Addition
     {
-        main=new Main();
-        assertEquals(3,main.absoluteValue(3));
-    }
-    @Test
-    public void testmaxValue() // test max value
-    {
-        main=new Main();
-        assertEquals(8,main.maxValue(7,8));
+        int subResult=main.Substract(param1,param2);
+        Assertions.assertEquals(result, subResult);
     }
 
-    @Test
-    public void testminValue() // test min value
+    @ParameterizedTest
+    @CsvFileSource(resources = "/TestData_Multiplication.csv")
+    public void testMultiplication(int param1,int param2,int result) //test Addition
     {
-        main=new Main();
-        assertEquals(5,main.minValue(6,5));
-    }
-    @Test
-    public void testrountvalue() // test round value
-    {
-        main=new Main();
-        assertEquals(3,main.rountvalue(2.8F));
+        int mulResult=main.Multiply(param1,param2);
+        Assertions.assertEquals(result, mulResult);
     }
 
-    @Test
-    public void TestLogarithm()
+    @ParameterizedTest
+    @CsvFileSource(resources = "/TestData_Division.csv")
+    public void testDivision(int param1,int param2,int result) //test Addition
     {
-        main=new Main();
-        assertEquals(main.Logarithm(10.0F),main.Logarithm(10.0F),0.0F);
+        int divResult=main.Divide(param1,param2);
+        Assertions.assertEquals(result, divResult);
     }
-
-
 
 
 
