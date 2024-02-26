@@ -28,7 +28,7 @@ public class Main {
         {
             return (param1/param2);
         }
-        public int modulus(int a,int b){return a % b;} // comment
+        public int modulus(int a,int b){return a % b;} // added module
     }
 
 
