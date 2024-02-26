@@ -53,6 +53,41 @@ public class TestCalculator {
         int modulusResult=main.modulus(param1,param2);
         Assertions.assertEquals(result, modulusResult);
     }
+    @ParameterizedTest
+    @CsvFileSource(resources = "/TestData_Modulus.csv")
+    public void testmodulus(int param1,int param2,int result) //test modulus
+    {
+        int modulusResult=main.modulus(param1,param2);
+        Assertions.assertEquals(result, modulusResult);
+    }
+    @ParameterizedTest
+    @CsvFileSource(resources = "/TestData_SquareRoot.csv")
+    public void testsquareroot(int param1,int result) //test squareroot
+    {
+        int rootsResult=main.squareroot(param1);
+        Assertions.assertEquals(result, rootsResult);
+    }
+    @ParameterizedTest
+    @CsvFileSource(resources = "/TestData_AbsValue.csv")
+    public void testsabsolute(int param1,int result) //test squareroot
+    {
+        int absResult=main.absoluteValue(param1);
+        Assertions.assertEquals(result, absResult);
+    }
+    @ParameterizedTest
+    @CsvFileSource(resources = "/TestData_maxValue.csv")
+    public void testmaxvalue(int param1,int param2,int result) //test squareroot
+    {
+        int maxResult=main.maxValue(param1,param2);
+        Assertions.assertEquals(result, maxResult);
+    }
+    @ParameterizedTest
+    @CsvFileSource(resources = "/TestData_minValue.csv")
+    public void testminvalue(int param1,int param2,int result) //test squareroot
+    {
+        int minResult=main.minValue(param1,param2);
+        Assertions.assertEquals(result, minResult);
+    }
 
 
 
