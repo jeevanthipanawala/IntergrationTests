@@ -46,6 +46,14 @@ public class TestCalculator {
         Assertions.assertEquals(result, divResult);
     }
 
+    @ParameterizedTest
+    @CsvFileSource(resources = "/TestData_Modulus.csv")
+    public void testmodulus(int param1,int param2,int result) //test modulus
+    {
+        int modulusResult=main.modulus(param1,param2);
+        Assertions.assertEquals(result, modulusResult);
+    }
+
 
 
 }
