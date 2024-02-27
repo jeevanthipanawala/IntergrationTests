@@ -98,6 +98,16 @@ public class TestCalculator {
         // Assert that the total result matches the expected result
         Assertions.assertEquals(expectedResult, totalResult);
     }
+    @ParameterizedTest
+    @CsvFileSource(resources = "/TestData_DivisionAndSubtraction.csv")
+    public void testDivisionAndSubtraction(int subParam1, int subParam2, int divParam, int expectedResult) {
+        // Perform the subtraction
+        int subResult = main.Substract(subParam1, subParam2);
+        // Perform the division with the result of subtraction
+        int divResult = main.Divide(subResult, divParam);
+        // Assert that the result of division matches the expected result
+        Assertions.assertEquals(expectedResult, divResult);
+    }
 
 
 }

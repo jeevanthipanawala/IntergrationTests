@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26658d39-33bd-4ab1-b000-64c0d6eb81e7" name="Changes" comment="Add missing round value test case">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData_AdditionAndMultiplication.csv" afterDir="false" />
+    <list default="true" id="26658d39-33bd-4ab1-b000-64c0d6eb81e7" name="Changes" comment="Add AdditionAndMultiplication integration test case">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData_DivisionAndSubtraction.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCalculator.java" afterDir="false" />
     </list>
@@ -214,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709002239461</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add AdditionAndMultiplication integration test case">
+      <option name="closed" value="true" />
+      <created>1709003218675</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709003218675</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +249,7 @@
     <MESSAGE value="Modified TestLogarithm Method" />
     <MESSAGE value="Commit 1 - Added Parameterized Unit Tests and Changed Main Methods" />
     <MESSAGE value="Add missing round value test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add missing round value test case" />
+    <MESSAGE value="Add AdditionAndMultiplication integration test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add AdditionAndMultiplication integration test case" />
   </component>
 </project>
