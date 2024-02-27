@@ -28,15 +28,7 @@ public class Main {
         {
             return (param1/param2);
         }
-        public int modulus(int a,int b){return a % b;}
-
-        public int squareroot(int a){return (int) Math.sqrt(a);}
-        public int absoluteValue(int a){return (int) Math.abs(a);}
-
-        public int maxValue(int a,int b){return Math.max(a,b);}
-        public int minValue(int a,int b){return Math.min(a,b);}
-
-        public int  rountvalue(float a){return (int) Math.round(a);}
+    public int  roundvalue(float param1){return (int) Math.round(param1);}
     }
 
 

@@ -89,7 +89,13 @@ public class TestCalculator {
         int roundedResult = main.rountvalue(input);
         Assertions.assertEquals(expected, roundedResult);
     }
-
+    @ParameterizedTest
+    @CsvFileSource(resources = "/TestData_RoundValue.csv")
+    public void testRound(float param1,int result) //test round value
+    {
+        int divround=main.roundvalue(param1);
+        Assertions.assertEquals(result, divround);
+    }
 
 
 }
