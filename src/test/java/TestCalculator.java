@@ -89,7 +89,15 @@ public class TestCalculator {
         int roundedResult = main.rountvalue(input);
         Assertions.assertEquals(expected, roundedResult);
     }
+    @ParameterizedTest
+    @CsvFileSource(resources = "/TestData_AdditionAndMultiplication.csv")
+    public void testAdditionAndMultiplication(int mulParam1, int mulParam2, int addParam, int expectedResult) {
 
+        // Perform the multiplication and add the third parameter to the result of multiplication
+        int totalResult = main.Add(main.Multiply(mulParam1, mulParam2), addParam);
+        // Assert that the total result matches the expected result
+        Assertions.assertEquals(expectedResult, totalResult);
+    }
 
 
 }
