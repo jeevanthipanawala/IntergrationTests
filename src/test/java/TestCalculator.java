@@ -53,13 +53,7 @@ public class TestCalculator {
         int modulusResult=main.modulus(param1,param2);
         Assertions.assertEquals(result, modulusResult);
     }
-    @ParameterizedTest
-    @CsvFileSource(resources = "/TestData_Modulus.csv")
-    public void testmodulus(int param1,int param2,int result) //test modulus
-    {
-        int modulusResult=main.modulus(param1,param2);
-        Assertions.assertEquals(result, modulusResult);
-    }
+
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_SquareRoot.csv")
     public void testsquareroot(int param1,int result) //test squareroot
@@ -87,6 +81,13 @@ public class TestCalculator {
     {
         int minResult=main.minValue(param1,param2);
         Assertions.assertEquals(result, minResult);
+    }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "/TestData_roundValue.csv")
+    public void testRoundValue(float input, int expected) {
+        int roundedResult = main.rountvalue(input);
+        Assertions.assertEquals(expected, roundedResult);
     }
 
 
