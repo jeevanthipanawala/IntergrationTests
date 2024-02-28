@@ -51,7 +51,7 @@ public class TestCalculator {
 
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_maxValue.csv")
-    public void testmaxvalue(int param1,int param2,int result) //test maximum value
+    public void testmaxvalue(int param1,int param2,int result) //test maximum value of two integers
     {
         int maxResult=main.MaxValue(param1,param2);
         Assertions.assertEquals(result, maxResult);
