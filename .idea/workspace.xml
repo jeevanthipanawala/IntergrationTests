@@ -131,7 +131,7 @@
       <workItem from="1709117064007" duration="5203000" />
       <workItem from="1709123895364" duration="122000" />
       <workItem from="1709124148071" duration="607000" />
-      <workItem from="1709125679502" duration="4885000" />
+      <workItem from="1709125679502" duration="5232000" />
     </task>
     <task id="LOCAL-00001" summary="Added Logarithm function and Test">
       <option name="closed" value="true" />
@@ -325,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709148387591</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Screen Recording - Task 1">
+      <option name="closed" value="true" />
+      <created>1709148765370</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1709148765370</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
