@@ -16,7 +16,7 @@ public class TestCalculator {
 
     /*** Parameters for all the unit tests are taken from the csv files reside in test/resources.
      * We have only passed one set. If needed, we can add several combinations of parameters
-     * to the relevant csv file and run the tests**/
+     * to the relevant csv file and run the tests **/
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_Addition.csv")
     public void testAddition(int addparam1,int addparam2,int result) //test Addition
