@@ -32,6 +32,12 @@ public class Main {
             return (param1/param2);
         }
 
+        /*** Get the maximum value ***/
+        public int MaxValue(int param1,int param2)
+        {
+            return max(param1,param2);
+        }
+
 
     }
 
