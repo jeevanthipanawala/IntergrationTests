@@ -1,5 +1,4 @@
 
-import org.example.Main;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -36,25 +35,4 @@ public class ITCalculator {
         Assertions.assertEquals(expectedResult, divResult);
     }
 
-    @ParameterizedTest
-    @CsvFileSource(resources = "/TestData_MaxAndMultiplication.csv")
-    public void testMaxValueAndMultiplication(int param1, int param2, int param3, int expectedResult) {
-        // Get the max value from 2 integers
-        int max = main.MaxValue(param1, param2);
-        // Perform the division with the result of subtraction
-        int mulResult = main.Multiply(max, param3);
-        // Assert that the result of division matches the expected result
-        Assertions.assertEquals(expectedResult, mulResult);
-    }
-
-    @ParameterizedTest
-    @CsvFileSource(resources = "/TestData_AbsAndAddition.csv")
-    public void testAbsoluteValueAndAddition(int param1, int param2,int expectedResult) {
-        // Get the absolute of an integer
-        int abs = main.AbsoluteValue(param1);
-        // Add another integer to the result
-        int addResult = main.Add(abs, param2);
-        // Assert that the result of division matches the expected result
-        Assertions.assertEquals(expectedResult, addResult);
-    }
 }

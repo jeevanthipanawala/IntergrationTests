@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26658d39-33bd-4ab1-b000-64c0d6eb81e7" name="Changes" comment="Added  Two Integration Tests, Data Files and Code Annotations.">
+    <list default="true" id="26658d39-33bd-4ab1-b000-64c0d6eb81e7" name="Changes" comment="Workspace file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ITCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ITCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCalculator.java" afterDir="false" />
     </list>
@@ -25,6 +25,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jeevanthipanawala&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c6138ab3-20a9-4e4b-bf8a-292c46cfae7e" />
+        <option name="url" value="https://github.com/jeevanthipanawala/IntergrationTests.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -36,30 +50,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ITCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestCalculator.TestLogarithm.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/BTH/Semester 2/Software Testing/Assignment4/Testing Assignment/IntergrationTests/src/test/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.ITCalculator.executor": "Run",
+    "JUnit.TestCalculator.TestLogarithm.executor": "Run",
+    "JUnit.TestCalculator.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/BTH/Semester 2/Software Testing/Assignment4/Testing Assignment/IntergrationTests",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\BTH\Semester 2\Software Testing\Assignment4\Testing Assignment\IntergrationTests\src\test\resources" />
@@ -67,6 +81,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\BTH\Semester 2\Software Testing\Assignment4\Testing Assignment\IntergrationTests\src\IT" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager">
@@ -112,7 +129,10 @@
       <workItem from="1708721432329" duration="38000" />
       <workItem from="1708722610488" duration="6724000" />
       <workItem from="1708882520952" duration="472000" />
-      <workItem from="1709117064007" duration="4687000" />
+      <workItem from="1709117064007" duration="5203000" />
+      <workItem from="1709123895364" duration="122000" />
+      <workItem from="1709124148071" duration="607000" />
+      <workItem from="1709125679502" duration="2209000" />
     </task>
     <task id="LOCAL-00001" summary="Added Logarithm function and Test">
       <option name="closed" value="true" />
@@ -218,7 +238,31 @@
       <option name="project" value="LOCAL" />
       <updated>1709122207444</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added  Two Integration Tests, Data Files and Code Annotations.">
+      <option name="closed" value="true" />
+      <created>1709123394343</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709123394343</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Removed unused imports">
+      <option name="closed" value="true" />
+      <created>1709123442393</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709123442393</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Workspace file">
+      <option name="closed" value="true" />
+      <created>1709123616104</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1709123616104</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +290,8 @@
     <MESSAGE value="Commit 1 - Added Parameterized Unit Tests and Changed Main Methods" />
     <MESSAGE value="Data File Changed" />
     <MESSAGE value="Added  Two Integration Tests, Data Files and Code Annotations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added  Two Integration Tests, Data Files and Code Annotations." />
+    <MESSAGE value="Removed unused imports" />
+    <MESSAGE value="Workspace file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workspace file" />
   </component>
 </project>
