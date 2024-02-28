@@ -1,4 +1,5 @@
 import org.example.Main;
+import org.junit.After;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -11,9 +12,13 @@ public class TestCalculator {
 
     @BeforeEach
     void setup() {
+
         main = new Main();
     }
 
+    /*** Parameters for all the unit tests are taken from the csv files reside in test/resources.
+     * We have only passed one set. If needed, we can add several combinations of parameters
+     * to the relevant csv file and run the tests**/
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_Addition.csv")
     public void testAddition(int addparam1,int addparam2,int result) //test Addition
@@ -32,7 +37,7 @@ public class TestCalculator {
 
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_Multiplication.csv")
-    public void testMultiplication(int param1,int param2,int result) //test Addition
+    public void testMultiplication(int param1,int param2,int result) //test Multiplication
     {
         int mulResult=main.Multiply(param1,param2);
         Assertions.assertEquals(result, mulResult);
@@ -40,7 +45,7 @@ public class TestCalculator {
 
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_Division.csv")
-    public void testDivision(int param1,int param2,int result) //test Addition
+    public void testDivision(int param1,int param2,int result) //test Division
     {
         int divResult=main.Divide(param1,param2);
         Assertions.assertEquals(result, divResult);
@@ -63,32 +68,27 @@ public class TestCalculator {
     }
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_AbsValue.csv")
-    public void testsabsolute(int param1,int result) //test squareroot
+    public void testsabsolute(int param1,int result) //test absolute
     {
         int absResult=main.absoluteValue(param1);
         Assertions.assertEquals(result, absResult);
     }
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_maxValue.csv")
-    public void testmaxvalue(int param1,int param2,int result) //test squareroot
+    public void testmaxvalue(int param1,int param2,int result) //test maximum value
     {
         int maxResult=main.maxValue(param1,param2);
         Assertions.assertEquals(result, maxResult);
     }
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_minValue.csv")
-    public void testminvalue(int param1,int param2,int result) //test squareroot
+    public void testminvalue(int param1,int param2,int result) //test Minimum Value
     {
         int minResult=main.minValue(param1,param2);
         Assertions.assertEquals(result, minResult);
     }
 
-    @ParameterizedTest
-    @CsvFileSource(resources = "/TestData_roundValue.csv")
-    public void testRoundValue(float input, int expected) {
-        int roundedResult = main.rountvalue(input);
-        Assertions.assertEquals(expected, roundedResult);
-    }
+
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_RoundValue.csv")
     public void testRound(float param1,int result) //test round value

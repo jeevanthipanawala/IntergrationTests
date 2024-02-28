@@ -1,7 +1,5 @@
 
 import org.example.Main;
-import org.junit.Assert;
-import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -17,6 +15,8 @@ public class ITCalculator {
     void setup() {
         main = new Main();
     }
+
+    /*** Parameters for all the integration tests are taken from the csv files reside in test/resources.**/
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_AdditionAndMultiplication.csv")
     public void testAdditionAndMultiplication(int mulParam1, int mulParam2, int addParam, int expectedResult) {
@@ -35,5 +35,27 @@ public class ITCalculator {
         int divResult = main.Divide(subResult, divParam);
         // Assert that the result of division matches the expected result
         Assertions.assertEquals(expectedResult, divResult);
+    }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "/TestData_MaxAndMultiplication.csv")
+    public void testMaxValueAndMultiplication(int param1, int param2, int param3, int expectedResult) {
+        // Get the max value from 2 integers
+        int max = main.maxValue(param1, param2);
+        // Perform the division with the result of subtraction
+        int mulResult = main.Multiply(max, param3);
+        // Assert that the result of division matches the expected result
+        Assertions.assertEquals(expectedResult, mulResult);
+    }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "/TestData_AbsAndAddition.csv")
+    public void testAbsoluteValueAndAddition(int param1, int param2,int expectedResult) {
+        // Get the absolute of an integer
+        int abs = main.absoluteValue(param1);
+        // Add another integer to the result
+        int addResult = main.Add(abs, param2);
+        // Assert that the result of division matches the expected result
+        Assertions.assertEquals(expectedResult, addResult);
     }
 }
