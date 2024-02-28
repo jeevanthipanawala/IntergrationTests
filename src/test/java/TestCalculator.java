@@ -49,7 +49,13 @@ public class TestCalculator {
         Assertions.assertEquals(result, divResult);
     }
 
-
+    @ParameterizedTest
+    @CsvFileSource(resources = "/TestData_maxValue.csv")
+    public void testmaxvalue(int param1,int param2,int result) //test maximum value
+    {
+        int maxResult=main.MaxValue(param1,param2);
+        Assertions.assertEquals(result, maxResult);
+    }
 
 
 
