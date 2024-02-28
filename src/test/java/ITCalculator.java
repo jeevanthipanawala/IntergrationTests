@@ -14,7 +14,7 @@ public class ITCalculator {
         main = new Main();
     }
 
-    /*** Parameters for all the integration  tests are taken from the csv files reside in test/resources.**/
+    /*** Parameters for all the integration tests are taken from the csv files reside in test/resources.**/
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_AdditionAndMultiplication.csv")
     public void testAdditionAndMultiplication(int mulParam1, int mulParam2, int addParam, int expectedResult) {
