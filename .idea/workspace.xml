@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26658d39-33bd-4ab1-b000-64c0d6eb81e7" name="Changes" comment="Data File Changed">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_27_2024_3_42_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_27_2024_3_42_AM__Changes_.xml" afterDir="false" />
+    <list default="true" id="26658d39-33bd-4ab1-b000-64c0d6eb81e7" name="Changes" comment="Added  Two Integration Tests, Data Files and Code Annotations.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ITCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ITCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData_AbsValue.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData_AbsValue.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData_Addition.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData_Addition.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData_AdditionAndMultiplication.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData_AdditionAndMultiplication.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData_Division.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData_Division.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData_DivisionAndSubtraction.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData_DivisionAndSubtraction.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData_Modulus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData_Modulus.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData_Multiplication.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData_Multiplication.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData_SquareRoot.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData_SquareRoot.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData_Substraction.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData_Substraction.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData_maxValue.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData_maxValue.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData_minValue.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData_minValue.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData_roundValue.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData_roundValue.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +112,7 @@
       <workItem from="1708721432329" duration="38000" />
       <workItem from="1708722610488" duration="6724000" />
       <workItem from="1708882520952" duration="472000" />
-      <workItem from="1709117064007" duration="3453000" />
+      <workItem from="1709117064007" duration="4687000" />
     </task>
     <task id="LOCAL-00001" summary="Added Logarithm function and Test">
       <option name="closed" value="true" />
@@ -215,7 +202,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708802449113</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added  Two Integration Tests, Data Files and Code Annotations.">
+      <option name="closed" value="true" />
+      <created>1709122173113</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709122173113</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added  Two Integration Tests, Data Files and Code Annotations.">
+      <option name="closed" value="true" />
+      <created>1709122207444</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709122207444</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +245,7 @@
     <MESSAGE value="Modified TestLogarithm Method" />
     <MESSAGE value="Commit 1 - Added Parameterized Unit Tests and Changed Main Methods" />
     <MESSAGE value="Data File Changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data File Changed" />
+    <MESSAGE value="Added  Two Integration Tests, Data Files and Code Annotations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added  Two Integration Tests, Data Files and Code Annotations." />
   </component>
 </project>
