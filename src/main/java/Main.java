@@ -1,4 +1,4 @@
-import static java.lang.Math.*;
+
 
 //Simple Calculator (Integer Operations) for Continuous Integration Demonstration
 public class Main {
