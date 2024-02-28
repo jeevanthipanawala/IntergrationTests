@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26658d39-33bd-4ab1-b000-64c0d6eb81e7" name="Changes" comment="Screen Recording - Task 2 - Test Driven Development">
+    <list default="true" id="26658d39-33bd-4ab1-b000-64c0d6eb81e7" name="Changes" comment="Screen Recording - Task 2 - Test Driven Development - Add Implementation Code to Main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ITCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ITCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +132,7 @@
       <workItem from="1709117064007" duration="5203000" />
       <workItem from="1709123895364" duration="122000" />
       <workItem from="1709124148071" duration="607000" />
-      <workItem from="1709125679502" duration="2989000" />
+      <workItem from="1709125679502" duration="3321000" />
     </task>
     <task id="LOCAL-00001" summary="Added Logarithm function and Test">
       <option name="closed" value="true" />
@@ -292,7 +294,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709146599169</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Screen Recording - Task 2 - Test Driven Development - Add Implementation Code to Main">
+      <option name="closed" value="true" />
+      <created>1709146820544</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1709146820544</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Screen Recording - Task 2 - Test Driven Development - Add Implementation Code to Main">
+      <option name="closed" value="true" />
+      <created>1709146873500</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1709146873500</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +342,7 @@
     <MESSAGE value="Workspace file" />
     <MESSAGE value="Screen Recording - Task 1 - Commit 4 Tests and Methods" />
     <MESSAGE value="Screen Recording - Task 2 - Test Driven Development" />
-    <option name="LAST_COMMIT_MESSAGE" value="Screen Recording - Task 2 - Test Driven Development" />
+    <MESSAGE value="Screen Recording - Task 2 - Test Driven Development - Add Implementation Code to Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Screen Recording - Task 2 - Test Driven Development - Add Implementation Code to Main" />
   </component>
 </project>
