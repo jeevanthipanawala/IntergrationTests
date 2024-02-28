@@ -55,7 +55,7 @@ public class TestCalculator {
     @CsvFileSource(resources = "/TestData_Modulus.csv")
     public void testmodulus(int param1,int param2,int result) //test modulus
     {
-        int modulusResult=main.modulus(param1,param2);
+        int modulusResult=main.Modulus(param1,param2);
         Assertions.assertEquals(result, modulusResult);
     }
 
@@ -63,37 +63,37 @@ public class TestCalculator {
     @CsvFileSource(resources = "/TestData_SquareRoot.csv")
     public void testsquareroot(int param1,int result) //test squareroot
     {
-        int rootsResult=main.squareroot(param1);
+        double rootsResult=main.Squareroot(param1);
         Assertions.assertEquals(result, rootsResult);
     }
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_AbsValue.csv")
     public void testsabsolute(int param1,int result) //test absolute
     {
-        int absResult=main.absoluteValue(param1);
+        int absResult=main.AbsoluteValue(param1);
         Assertions.assertEquals(result, absResult);
     }
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_maxValue.csv")
     public void testmaxvalue(int param1,int param2,int result) //test maximum value
     {
-        int maxResult=main.maxValue(param1,param2);
+        int maxResult=main.MaxValue(param1,param2);
         Assertions.assertEquals(result, maxResult);
     }
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_minValue.csv")
     public void testminvalue(int param1,int param2,int result) //test Minimum Value
     {
-        int minResult=main.minValue(param1,param2);
+        int minResult=main.MinValue(param1,param2);
         Assertions.assertEquals(result, minResult);
     }
 
 
     @ParameterizedTest
-    @CsvFileSource(resources = "/TestData_RoundValue.csv")
+    @CsvFileSource(resources = "/TestData_roundValue.csv")
     public void testRound(float param1,int result) //test round value
     {
-        int divround=main.roundvalue(param1);
+        int divround=main.RoundValue(param1);
         Assertions.assertEquals(result, divround);
     }
 
