@@ -14,7 +14,7 @@ public class Main {
            return (param1+param2);
         }
 
-        /*** Substract  Two Integers ***/
+        /*** Substract Two Integers ***/
         public int Substract(int param1,int param2)
         {
             return (param1-param2);
