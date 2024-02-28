@@ -33,6 +33,11 @@ public class Main {
         }
 
 
+        /*** Get the maximum value ***/
+        public int MaxValue(int param1,int param2)
+        {
+            return max(param1,param2);
+        }
 
     }
 
