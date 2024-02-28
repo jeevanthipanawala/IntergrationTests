@@ -14,7 +14,7 @@ public class TestCalculator {
         main = new Main();
     }
 
-    /*** Parameters for all the unit tests are taken from the csv files  reside in test/resources.
+    /*** Parameters for all the unit tests are  taken from the csv files  reside in test/resources.
      * We have only passed one set. If needed, we can add several combinations of parameters
      * to the relevant csv file and run the tests **/
     @ParameterizedTest
