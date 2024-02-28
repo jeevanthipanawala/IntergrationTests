@@ -39,6 +39,36 @@ public class Main {
             return max(param1,param2);
         }
 
+        /*** Calculate Modulus ***/
+        public int Modulus(int param1,int param2)
+        {
+
+            return (param1%param2);
+        }
+
+        /*** Get the squareroot ***/
+        public double Squareroot(int param1)
+        {
+            return sqrt(param1);
+        }
+
+        /*** Get Absolute Value ***/
+        public int AbsoluteValue(int param1)
+        {
+            return abs(param1);
+        }
+
+        /*** Get the minimum value ***/
+        public int MinValue(int param1,int param2)
+        {
+            return min(param1,param2);
+        }
+
+        /*** Round a float to an integer ***/
+        public int RoundValue(float param1)
+        {
+            return round(param1);
+        }
     }
 
 

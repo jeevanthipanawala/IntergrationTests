@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26658d39-33bd-4ab1-b000-64c0d6eb81e7" name="Changes" comment="Screen Recording - Task 2 - Build Failure">
+    <list default="true" id="26658d39-33bd-4ab1-b000-64c0d6eb81e7" name="Changes" comment="Screen Recording - Task 2 - Build Success">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ITCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ITCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +132,7 @@
       <workItem from="1709117064007" duration="5203000" />
       <workItem from="1709123895364" duration="122000" />
       <workItem from="1709124148071" duration="607000" />
-      <workItem from="1709125679502" duration="7727000" />
+      <workItem from="1709125679502" duration="8497000" />
     </task>
     <task id="LOCAL-00001" summary="Added Logarithm function and Test">
       <option name="closed" value="true" />
@@ -371,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709152056711</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Screen Recording - Task 2 - Build Success">
+      <option name="closed" value="true" />
+      <created>1709152216372</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1709152216372</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,6 +418,7 @@
     <MESSAGE value="Screen Recording - Task 3 - Continuous Integration" />
     <MESSAGE value="Screen Recording - Task 1" />
     <MESSAGE value="Screen Recording - Task 2 - Build Failure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Screen Recording - Task 2 - Build Failure" />
+    <MESSAGE value="Screen Recording - Task 2 - Build Success" />
+    <option name="LAST_COMMIT_MESSAGE" value="Screen Recording - Task 2 - Build Success" />
   </component>
 </project>
