@@ -19,6 +19,7 @@ public class ITCalculator {
     @CsvFileSource(resources = "/TestData_AdditionAndMultiplication.csv")
     public void testAdditionAndMultiplication(int mulParam1, int mulParam2, int addParam, int expectedResult) {
 
+        // Check weather addition and multiplication methods work as expected
         // Perform the multiplication and add the third parameter to the result of multiplication
         int totalResult = main.Add(main.Multiply(mulParam1, mulParam2), addParam);
         // Assert that the total result matches the expected result
@@ -27,6 +28,7 @@ public class ITCalculator {
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_DivisionAndSubtraction.csv")
     public void testDivisionAndSubtraction(int subParam1, int subParam2, int divParam, int expectedResult) {
+        // Check weather division and subtraction methods work as expected
         // Perform the subtraction
         int subResult = main.Substract(subParam1, subParam2);
         // Perform the division with the result of subtraction
@@ -38,6 +40,7 @@ public class ITCalculator {
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_MaxAndMultiplication.csv")
     public void testMaxValueAndMultiplication(int param1, int param2, int param3, int expectedResult) {
+        // Check weather maxvalue and multiplication methods work as expected
         // Get the max value from 2 integers
         int max = main.MaxValue(param1, param2);
         // Perform the division with the result of subtraction
@@ -49,6 +52,7 @@ public class ITCalculator {
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_AbsAndAddition.csv")
     public void testAbsoluteValueAndAddition(int param1, int param2,int expectedResult) {
+        // Check weather absolutevalue and addition methods work as expected
         // Get the absolute of an integer
         int abs = main.AbsoluteValue(param1);
         // Add another integer to the result

@@ -22,6 +22,7 @@ public class TestCalculator {
     public void testAddition(int addparam1,int addparam2,int result) //test Addition
     {
         int addResult=main.Add(addparam1,addparam2);
+        // Assert that the actual result matches the expected result
         Assertions.assertEquals(result, addResult);
     }
 
@@ -30,6 +31,7 @@ public class TestCalculator {
     public void testSubstraction(int param1,int param2,int result) //test Addition
     {
         int subResult=main.Substract(param1,param2);
+        // Assert that the actual result matches the expected result
         Assertions.assertEquals(result, subResult);
     }
 
@@ -38,6 +40,7 @@ public class TestCalculator {
     public void testMultiplication(int param1,int param2,int result) //test Multiplication
     {
         int mulResult=main.Multiply(param1,param2);
+        // Assert that the actual result matches the expected result
         Assertions.assertEquals(result, mulResult);
     }
 
@@ -46,6 +49,7 @@ public class TestCalculator {
     public void testDivision(int param1,int param2,int result) //test Division
     {
         int divResult=main.Divide(param1,param2);
+        // Assert that the actual result matches the expected result
         Assertions.assertEquals(result, divResult);
     }
 
@@ -54,6 +58,7 @@ public class TestCalculator {
     public void testmaxvalue(int param1,int param2,int result) //test maximum value
     {
         int maxResult=main.MaxValue(param1,param2);
+        // Assert that the actual result matches the expected result
         Assertions.assertEquals(result, maxResult);
     }
 
@@ -62,6 +67,7 @@ public class TestCalculator {
     public void testmodulus(int param1,int param2,int result) //test modulus
     {
         int modulusResult=main.Modulus(param1,param2);
+        // Assert that the actual result matches the expected result
         Assertions.assertEquals(result, modulusResult);
     }
 
@@ -70,6 +76,7 @@ public class TestCalculator {
     public void testsquareroot(int param1,int result) //test squareroot
     {
         double rootsResult=main.Squareroot(param1);
+        // Assert that the actual result matches the expected result
         Assertions.assertEquals(result, rootsResult);
     }
     @ParameterizedTest
@@ -77,6 +84,7 @@ public class TestCalculator {
     public void testsabsolute(int param1,int result) //test absolute
     {
         int absResult=main.AbsoluteValue(param1);
+        // Assert that the actual result matches the expected result
         Assertions.assertEquals(result, absResult);
     }
 
@@ -85,15 +93,16 @@ public class TestCalculator {
     public void testminvalue(int param1,int param2,int result) //test Minimum Value
     {
         int minResult=main.MinValue(param1,param2);
+        // Assert that the actual result matches the expected result
         Assertions.assertEquals(result, minResult);
     }
-
 
     @ParameterizedTest
     @CsvFileSource(resources = "/TestData_roundValue.csv")
     public void testRound(float param1,int result) //test round value
     {
         int divround=main.RoundValue(param1);
+        // Assert that the actual result matches the expected result
         Assertions.assertEquals(result, divround);
     }
 

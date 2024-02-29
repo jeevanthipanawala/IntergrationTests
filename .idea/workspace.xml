@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26658d39-33bd-4ab1-b000-64c0d6eb81e7" name="Changes" comment="Screen Recording - Task 2 - Build Success">
+    <list default="true" id="26658d39-33bd-4ab1-b000-64c0d6eb81e7" name="Changes" comment="Screen Recording - Task 3 - Continuous Integration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ITCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ITCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,30 +47,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.ITCalculator.executor": "Run",
-    "JUnit.TestCalculator.TestLogarithm.executor": "Run",
-    "JUnit.TestCalculator.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/BTH/Semester 2/Software Testing/Assignment4/Testing Assignment/IntergrationTests",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ITCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestCalculator.TestLogarithm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/BTH/Semester 2/Software Testing/Assignment4/Testing Assignment/IntergrationTests&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\BTH\Semester 2\Software Testing\Assignment4\Testing Assignment\IntergrationTests\src\test\resources" />
@@ -132,7 +129,8 @@
       <workItem from="1709117064007" duration="5203000" />
       <workItem from="1709123895364" duration="122000" />
       <workItem from="1709124148071" duration="607000" />
-      <workItem from="1709125679502" duration="8497000" />
+      <workItem from="1709125679502" duration="9583000" />
+      <workItem from="1709208083505" duration="719000" />
     </task>
     <task id="LOCAL-00001" summary="Added Logarithm function and Test">
       <option name="closed" value="true" />
@@ -382,7 +380,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709152216372</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Screen Recording - Task 3 - Continuous Integration">
+      <option name="closed" value="true" />
+      <created>1709153538655</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1709153538655</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,10 +421,10 @@
     <MESSAGE value="Screen Recording - Task 1 - Commit 4 Tests and Methods" />
     <MESSAGE value="Screen Recording - Task 2 - Test Driven Development" />
     <MESSAGE value="Screen Recording - Task 2 - Test Driven Development - Add Implementation Code to Main" />
-    <MESSAGE value="Screen Recording - Task 3 - Continuous Integration" />
     <MESSAGE value="Screen Recording - Task 1" />
     <MESSAGE value="Screen Recording - Task 2 - Build Failure" />
     <MESSAGE value="Screen Recording - Task 2 - Build Success" />
-    <option name="LAST_COMMIT_MESSAGE" value="Screen Recording - Task 2 - Build Success" />
+    <MESSAGE value="Screen Recording - Task 3 - Continuous Integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Screen Recording - Task 3 - Continuous Integration" />
   </component>
 </project>
